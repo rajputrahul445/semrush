@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+body {font-family: 'Lato', sans-serif;background: #fff;overflow: auto;font-size: 14px;overflow-x: hidden;padding-top: 0px;}
+a, a:hover, a:focus {  text-decoration: none;  transition: all 400ms ease; }
+img{max-width: 100%}
+input, button { outline: none; box-shadow: none;  }
+.owl-carousel .owl-item img{width: auto;}
+.mobile{display: none !important;}
+.text-end{
+    text-align: right;
+}
+section{
+    padding: 50px 0;
+}
+.sectionHeading h2{
+    font-size: 40px;
+    color: #3042FB;
+    font-weight: 600;
+}
+.sectionHeading h3{
+    font-size: 32px;
+    color: #000000;
+    font-weight: 400;
+    margin: 0 0 5px;
+}
+.mainHeader {
+    z-index: 99;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all 400ms ease;
+    position: fixed;
+}
+.listInline {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 10px;
+}
+.unorderList {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.gap20{
+    gap: 20px;
+}
+.navbar-brand img {
+    max-width: 170px;
+}
+nav#mainNav {
+    background: #fff !important;
+    padding: 5px 0;
+    box-shadow: rgba(51, 59, 81, 0.05) 0px 15px 30px;
+}
+nav#mainNav .nav-item > a {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    padding: 18px 0px;
+    position: relative;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+nav#mainNav .nav-item > a:hover {
+    color: #02A5FF;
+}
+nav#mainNav .nav-item {
+    padding: 0 13px;
+}
+.dropmenu {
+    position: relative;
+}
+
+.dropmenuWrp {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #fff;
+    min-width: 220px;
+    padding: 5px 0;
+    box-shadow: 4px 10px 10px #0000002e;
+    display: none;
+    padding: 20px;
+}
+
+.dropmenuWrp li a {
+    display: block;
+    padding: 9px 10px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dropmenu:hover .dropmenuWrp {
+    display: block;
+}
+
+nav#mainNav .nav-item > a:hover, .dropmenu:hover > a {
+    color: rgb(255, 100, 45) !important;
+}
+
+.dropmenuWrp li a:hover {
+    background: #f5f5f5;
+}
+.dropmenuToggle {
+    position: absolute;
+    right: 0;
+    top: 19px;
+    color: #fff;
+}
+a.navbar-brand img {
+    height: 20px;
+}
+
+a.navbar-brand span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+a.navbar-brand span.logoCaptionPage {
+    color: rgb(255, 100, 45);
+}
+
+a.navbar-brand {
+    margin-right: 50px;
+}
+
+.orangeBtn, .yellowBtn, .blackBtn {
+    display: inline-flex !important;
+    background: rgb(255, 100, 45);
+    color: rgb(255, 255, 255) !important;
+    padding: 7px 16px !important;
+    border-radius: 10px;
+}
+.yellowBtn{
+    background: rgb(255, 232, 77);
+    color: #000 !important;
+}
+.blackBtn{
+    background: #000 !important;
+    color: #fff !important;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    padding: 10px !important;
+}
+.progress-bar {
+    height: 4px;
+    background: linear-gradient(to right, rgb(255, 100, 45), rgb(255, 100, 45));
+    width: 0%;
+  }
+  nav#mainNav .nav-item .full-width {
+    max-width: 200px;
+    width: 100%;
+    justify-content: center;
+}
+
+span.caption {
+    display: block;
+    color: rgb(137, 141, 154);
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+input#colorToggle + label {
+    box-sizing: border-box;
+    padding: 0px;
+    min-width: 36px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(253, 194, 60) !important;
+    border-radius: 10px !important;
+    height: 20px !important;
+}
+
+input#colorToggle + label:after {
+    content: "";
+    background: #fff;
+    transform: translateX(3px) scaleX(1);
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+}
+
+input#colorToggle {
+    display: none;
+}
+
+input#colorToggle:checked + label:after {
+    transform: translateX(17px) scaleX(1);
+    background: #B87FF8;
+}
+
+input#colorToggle:checked + label {
+    background: rgb(42, 44, 52) !important;
+}
+.banner .row {
+    padding: 50px 60px 42px;
+    border-radius: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.banner.yellowBg .row {
+    background: rgb(255, 232, 77);
+    color: rgb(23, 26, 34);
+}
+
+.banner h1, .banner h2 {
+    font-size: 32px;
+    color: rgb(23, 26, 34);
+    font-weight: 700;
+    margin: 0 0 20px;
+}
+
+.banner p {
+    font-size: 16px;
+    margin: 0 0 30px;
+}
+
+.banner span {
+    font-size: 14px;
+}
+
+.banner strong a {
+    color: #000;
+}
+.blogBx > img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.blogBxDetails {}
+
+.linkName, .linkTime {
+    white-space: nowrap;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgb(23, 26, 34);
+}
+
+.linkTime {
+    color: rgb(23, 26, 34);
+}
+
+.blogFontLg, .blogFontMd {
+    color: rgb(23, 26, 34);
+    font-size: 26px;
+    max-height: 90px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.blogFontLg a, .blogFontMd a {
+    color: inherit;
+}
+
+.blogBx {
+    margin-bottom: 50px;
+}
+
+.para {
+    color: rgb(62, 66, 75);
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.authName {
+    font-size: 14px;
+    color: rgb(137, 141, 154);
+    font-weight: bold;
+}
+
+.linkDate {
+    font-size: 14px;
+    color: rgb(137, 141, 154);
+}
+
+.blogFontMd {
+    font-size: 22px;
+}
+
+.lineBtn {
+    background-color: transparent !important;
+    color: rgb(62, 66, 75) !important;
+    border: solid 1px rgb(209, 212, 219) !important;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-flex;
+    font-size: 14px !important;
+}
+
+.full-width {
+    width: 100%;
+    display: block;
+}
+li.page-item.nolInk {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+li.page-item a {
+    color: #000;
+    font-weight: 300;
+    font-size: 14px;
+    border: solid 1px #ccc;
+    margin: 0 7px;
+    border-radius: 5px;
+    padding: 10px 16px;
+    margin-left: 7px !important;
+}
+li.page-item a.current{
+    background: #000;
+    color: #fff;
+}
+.banner.purpleBg .row{
+    background: rgb(66, 25, 131);
+    color: #fff;
+}
+.banner.purpleBg h2{
+    color: #fff;
+}
+.lineLink {
+    color: #fff;
+    text-decoration: underline;
+}
+img.offsetTop {
+    width: 240px;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    display: block;
+}
+img.offsetTop {
+    width: 240px;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+.blogFontXl {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.tagList {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.tag {
+    padding: 10px 16px;
+    background-color: rgb(246, 247, 248);
+    color: rgb(23, 26, 34);
+    border-radius: 10px;
+    font-size: 14px;
+}
+.newsLetter {
+    padding: 40px 0;
+    color: rgb(0, 0, 0);
+    background: rgb(253, 194, 60);
+}
+.term {
+    font-size: 12px;
+    color: rgba(62, 66, 75, 0.6);
+    display: block;
+    margin-top: 10px;
+}
+
+.term a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.newsLetter .form-control {
+    font-size: 14px;
+    padding: 10px 20px;
+}
+.newsLetterImg{
+    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+.marketing{
+    margin-top: 50px;
+    background: rgb(66, 25, 131);
+    position: relative;
+    padding: 35px 0;
+}
+.marketing .blogFontXl{
+    color: #fff;
+}
+.marketing .container{
+    position: relative;
+}
+.marketing .orangeBtn{
+    max-width: 320px;
+}
+img.offsetBottom {
+    position: absolute;
+    left: 0;
+    top: -120px;
+    width: 390px;
+}
+.footer {
+    background: rgb(23, 26, 34);
+    padding: 50px 10px;
+}
+
+.footLogo p, .footLink a, .footLink p {
+    font-size: 12px;
+    line-height: 19px;
+    color: rgb(209, 212, 219) !important;
+}
+
+.footLogo p a {
+    color: inherit;
+}
+.footerAlign{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footerAlign .footLink {margin-top: 90px;}
+.footLink h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    color: rgb(246, 247, 248);
+}
+
+.footLink ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footLink ul li {
+    margin-bottom: 7px;
+}
+.copyright {
+    color: rgb(111, 113, 118);
+    margin-top: 20px;
+}
