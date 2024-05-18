@@ -12,6 +12,9 @@
         overflow: hidden;
     }
     .mobile{display: block  !important;}
+    .mobile.d-flex{
+        display: flex !important;
+    }
     .desktop{display: none;}
     .navbar-toggler i {
         color: #000;

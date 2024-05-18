@@ -260,7 +260,9 @@ input#colorToggle:checked + label {
 .blogFontLg a, .blogFontMd a {
     color: inherit;
 }
-
+.blogFontLg a:hover, .blogFontMd a:hover{
+    color: rgb(255, 100, 45);
+}
 .blogBx {
     margin-bottom: 50px;
 }
@@ -452,4 +454,28 @@ img.offsetBottom {
 .copyright {
     color: rgb(111, 113, 118);
     margin-top: 20px;
+}
+/*=====Dark-theme-css=====*/
+.dark nav#mainNav {
+    background: #21232B !important;
+}
+
+.dark a.navbar-brand .logoCaption, .dark nav#mainNav .nav-item > a {
+    color: #fff;
+}
+
+body.dark {
+    background: #111317;
+}
+
+.dark .blogFontLg, .dark .blogFontMd, .dark .linkName, .dark .linkTime, .dark .blogFontXl {
+    color: #fff;
+}
+
+.dark .para {
+    color: rgb(137, 141, 154);
+}
+
+.dark .footer {
+    background: rgb(23, 26, 34);
 }

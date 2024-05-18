@@ -71,7 +71,9 @@ $( ".navbar-toggler, .cross-toggler" ).click(function() {
   $("#navbarSupportedContent").toggleClass("active");
   $(".overLay").toggleClass("active");
 });
-
+$( "#colorToggle" ).click(function() {
+    $('body').toggleClass("dark");
+  });
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
     if (scroll >= 41) {
