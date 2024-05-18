@@ -124,6 +124,9 @@
         margin-top: 0 !important;
         padding-top: 20px;
     }
+    .banner span, .banner strong{
+        font-size: 13px;
+    }
     .banner .row {
         padding: 30px;
     }
@@ -178,11 +181,36 @@
         flex-wrap: nowrap;
         overflow: auto;
     }
+    img.offsetTop {
+        top: 0;
+    }
    
     
 }
 @media only screen and (max-width: 767px){
+    .banner .row{
+        padding: 20px;
+    }
+    img.offsetBottom {
+        position: static;
+        max-width: 200px;
+        display: block;
+        margin: 0 auto;
+    }
     
+    .marketing .col-md-5 {
+        text-align: center;
+    }
+    
+    img.newsLetterImg {
+        max-width: 200px;
+    }
+    
+    
+    
+    section.banner.purpleBg img {
+        max-width: 150px;
+    }
 }
 @media only screen and (max-width: 460px){
 
