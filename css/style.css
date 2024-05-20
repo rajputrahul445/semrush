@@ -574,19 +574,19 @@ body.dark {
     font-weight: 700;
     margin: 0 0 20px;
 }
-article.article p {
+/* article.article p {
     font-size: 22px;
     font-weight: 300;
-}
+} */
 
 article.article p a {
     color: rgb(255, 100, 45) !important;
 }
 
-article.article ul li {
+/* article.article ul li {
     font-size: 22px;
     font-weight: 300;
-}
+} */
 
 article.article ul {
     padding-left: 20px;
@@ -596,4 +596,88 @@ article.article ul {
 }
 .breadcrumbs-links a, .breadcrumbs-links li{
     color: rgb(23, 26, 34);
+}
+.stickyBottom {
+    background: rgb(23, 26, 34);
+    border-radius: 10px 10px 0px 0px;
+    z-index: 20;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 160%;
+}
+.stickyBottom button, .tableModal .lineBtn{
+    width: 100%;
+    color: #fff !important;
+    border: 1px solid rgb(209, 212, 219) !important;
+    text-align: center;
+    justify-content: center;
+}
+.tableModalContent ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.tableModalContent ul a {
+    text-decoration: none;
+    line-height: 1.6;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color 0.1s ease-in-out 0s;
+    color: rgb(137, 141, 154) !important;
+}
+
+.tableModalContent {
+    margin: 0px;
+    width: 100%;
+    padding: 24px;
+    background: rgb(23, 26, 34);
+    color: rgb(246, 247, 248);
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    position: fixed;
+    bottom: 0;
+    z-index: 21;
+    padding-top: 40px;
+}
+
+.tableModal .lineBtn {
+    background: #fff !important;
+    color: #000 !important;
+    margin-top: 30px;
+}
+
+.tableModalContent ul li {
+    margin: 0 0 5px;
+}
+
+button.modalCross {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: rgb(137, 141, 154) !important;
+    top: 10px;
+    padding: 0;
+}
+.modalOvelay{
+    background: rgba(25, 27, 35, 0.7);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.tableModal {
+    display: none;
+}
+
+.tableModal.active {
+    display: block;
 }

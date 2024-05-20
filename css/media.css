@@ -193,6 +193,13 @@
     img.offsetTop {
         top: 0;
     }
+    .fullBanner{
+        margin-top: 0 !important;
+    }
+    article.article .blogFontXl {
+        font-size: 22px !important;
+        margin: 20px 0;
+    }
    
     
 }
