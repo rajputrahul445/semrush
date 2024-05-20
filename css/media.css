@@ -2,6 +2,9 @@
 
 @media screen and (min-width: 1366px) {
     .container{max-width: 1050px;}
+    .container-fluid{
+        max-width: 1440px;
+    }
 }
 @media screen and (max-width: 1200px) and (min-width: 1024px) {
    
@@ -21,7 +24,10 @@
     .desktop{display: none;}
     .navbar-toggler i {
         color: #000;
-        font-size: 28px;
+        font-size: 22px;
+    }
+    .mainHeader{
+        top: 0;
     }
     .navbar-brand img {
         height: 50px;
@@ -210,7 +216,13 @@
     }
     
     
+    section.fullBanner.mt-4 {
+        padding: 0;
+    }
     
+    .sticky-top {
+        margin: 20px 0;
+    }
     section.banner.purpleBg img {
         max-width: 150px;
     }
