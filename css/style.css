@@ -591,3 +591,9 @@ article.article ul li {
 article.article ul {
     padding-left: 20px;
 }
+.redBg{
+    background: rgb(255, 120, 143);
+}
+.breadcrumbs-links a, .breadcrumbs-links li{
+    color: rgb(23, 26, 34);
+}
