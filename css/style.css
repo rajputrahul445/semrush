@@ -236,13 +236,18 @@ header.mainHeader.fixedHeader {
     right: -10px;
     min-width: 160px;
 }
+section.banner.greyBg.mt-5.fullBanner {
+    padding: 20px 0 0;
+}
 .banner .row {
-    padding: 50px 60px 42px;
+    padding: 0px 30px 0px;
     border-radius: 10px;
     margin: 0;
     overflow: hidden;
 }
-
+.banner .row img {
+    width: 100%;
+}
 .banner.yellowBg .row {
     background: rgb(255, 232, 77);
     color: rgb(23, 26, 34);
@@ -593,6 +598,9 @@ article.article ul {
 }
 .redBg{
     background: rgb(255, 120, 143);
+}
+.greyBg{
+    background: #f0eceb;
 }
 .breadcrumbs-links a, .breadcrumbs-links li{
     color: rgb(23, 26, 34);

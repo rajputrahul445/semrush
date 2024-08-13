@@ -75,7 +75,10 @@ $( "#colorToggle" ).click(function() {
     $('body').toggleClass("dark");
   });
   $( ".tableModalClick" ).click(function() {
-    $('.tableModal').toggleClass("active");
+    $('.tableModalTable').toggleClass("active");
+  }); 
+  $( ".tableModalClickShare" ).click(function() {
+    $('.tableModalShare').toggleClass("active");
   });  
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();

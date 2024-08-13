@@ -142,8 +142,6 @@
     
     .banner .row .col-md-7 {
         order: 2;
-        margin-top: 40px;
-        text-align: center;
     }
     
     .banner .row .col-md-5 {
@@ -200,12 +198,22 @@
         font-size: 22px !important;
         margin: 20px 0;
     }
+    .mobile.stickyBottom {
+        display: flex !important;
+        gap: 20px;
+    }
    
     
 }
 @media only screen and (max-width: 767px){
     .banner .row{
         padding: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .banner .row .col-md-7{
+        margin-top: 0;
+        margin-bottom: 40px;
     }
     img.offsetBottom {
         position: static;
