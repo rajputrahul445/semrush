@@ -137,11 +137,11 @@
         font-size: 13px;
     }
     .banner .row {
-        padding: 30px;
+        padding: 0;
     }
     
     .banner .row .col-md-7 {
-        order: 2;
+        /* order: 2; */
     }
     
     .banner .row .col-md-5 {
@@ -240,6 +240,9 @@
     }
     section.banner.purpleBg img {
         max-width: 150px;
+    }
+    .banner .row .col-md-7 {
+        order: 2;
     }
 }
 @media only screen and (max-width: 460px){
