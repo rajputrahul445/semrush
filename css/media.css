@@ -154,6 +154,9 @@
     .banner h1, .banner h2 {
         font-size: 24px;
     }
+    section.banner.greyBg.mt-5.fullBanner{
+        padding: 0;
+    }
     .blogFontLg {
         font-size: 16px;
     }
