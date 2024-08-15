@@ -147,6 +147,9 @@ a.navbar-brand {
     justify-content: center;
     padding: 10px !important;
 }
+nav#mainNav .nav-item > a.orangeBtn:hover{
+    color: #fff !important;
+}
 .progress-bar {
     height: 4px;
     background: linear-gradient(to right, rgb(255, 100, 45), rgb(255, 100, 45));
