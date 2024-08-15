@@ -143,6 +143,9 @@
     .banner .row .col-md-7 {
         /* order: 2; */
     }
+    .banner .row img{
+        max-height: 400px;
+    }
     
     .banner .row .col-md-5 {
         text-align: center;
