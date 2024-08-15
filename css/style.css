@@ -247,6 +247,8 @@ section.banner.greyBg.mt-5.fullBanner {
 }
 .banner .row img {
     width: 100%;
+    height: calc(100vh - 250px);
+    object-fit: cover;
 }
 .banner.yellowBg .row {
     background: rgb(255, 232, 77);
@@ -345,6 +347,7 @@ section.banner.greyBg.mt-5.fullBanner {
 .full-width {
     width: 100%;
     display: block;
+    max-width: 100% !important;
 }
 li.page-item.nolInk {
     padding: 0 20px;
